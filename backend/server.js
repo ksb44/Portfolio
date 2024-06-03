@@ -9,7 +9,7 @@ app.use(bodyParser.json());
 
 app.post('/api/contact', (req, res) => {
   const { username, email, message,phoneNumber } = req.body;
-
+console.log(req.body)
   // Setup nodemailer transporter
   const transporter = nodemailer.createTransport({
     service: 'gmail', 
