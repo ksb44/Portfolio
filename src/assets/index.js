@@ -11,5 +11,7 @@ export {
   projectOne,
   projectTwo,
   projectThree,
+  projectFour,
+  projectFive,
   contactImg,
 };
