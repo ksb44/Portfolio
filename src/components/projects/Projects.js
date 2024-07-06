@@ -5,7 +5,7 @@ import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const link1 = "https://github.com/ksb44/INotebook";
-  const link2 = "https://github.com/ksb44/Ecommerce";
+  const link2 = "https://github.com/ksb44/Ecommerce-Next";
   const link3 = "https://github.com/ksb44/forum";
 
   const web1="https://i-notebook-u78v.vercel.app/login";
