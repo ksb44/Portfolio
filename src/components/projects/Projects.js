@@ -9,7 +9,7 @@ const Projects = () => {
   const link3 = "https://github.com/ksb44/forum";
 
   const web1="https://i-notebook-u78v.vercel.app/login";
-
+  const web2="https://i-notebook-u78v.vercel.app/login";
   return (
     <section
       id="projects"
@@ -42,6 +42,7 @@ const Projects = () => {
           des="Headed the establishment of an innovative knowledge-sharing platform, fostering an impressive 25% increase in user engagement. Demonstrated proficiency in utilizing PHP for backend functionalities, optimizing database management efficiency with MySQL,and enhancing user experience with Bootstrap."
           src={projectThree}
           link={link3}
+          web={link3}
         />
       </div>
     </section>
