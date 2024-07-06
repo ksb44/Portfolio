@@ -2,6 +2,8 @@
 import projectOne from "./images/projects/projectOne.jpg";
 import projectTwo from "./images/projects/projectTwo.jpg";
 import projectThree from "./images/projects/projectThree.jpeg";
+import projectFour from "./images/projects/projectFour.jpg";
+import projectFive from "./images/projects/projectFive.jpeg";
 import contactImg from "./images/contact/contactImg.png";
 
 export {
