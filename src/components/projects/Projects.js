@@ -4,7 +4,7 @@ import { projectOne, projectTwo, projectThree } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
-  const link1 = "https://github.com/ksb44/INote";
+  const link1 = "https://github.com/ksb44/INotebook";
   const link2 = "https://github.com/ksb44/Ecommerce";
   const link3 = "https://github.com/ksb44/forum";
 
