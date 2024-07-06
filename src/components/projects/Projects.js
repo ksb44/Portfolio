@@ -51,7 +51,7 @@ const Projects = () => {
         />
                 <ProjectsCard
           title="Movie-watchlist Website"
-          des="The Movie Watchlist project is a web application that allows users to manage a list of movies they want to watch. Users can add, edit, delete movies, mark them as watched/unwatched, and provide ratings and reviews. The application uses a React frontend, Redux for state management, and MongoDB as the backend database. It is hosted on Netlify, with serverless functions handling the backend API."
+          des="The Movie Watchlist project is a web application that allows users to manage a list of movies they want to watch. Users can add, edit, delete movies, mark them as watched/unwatched, and provide ratings and reviews. The application uses a React frontend, Redux for state management, and MongoDB as the backend database."
           src={projectFour}
           link={link4}
           web={web4}
