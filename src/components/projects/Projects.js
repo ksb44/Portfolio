@@ -1,15 +1,20 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour, projectFive } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const link1 = "https://github.com/ksb44/INotebook";
   const link2 = "https://github.com/ksb44/Ecommerce-Next";
   const link3 = "https://github.com/ksb44/forum";
+  const link4 = "https://github.com/ksb44/movie-watchlist";
+  const link5 = "https://github.com/ksb44/homepage-UI";
 
   const web1="https://i-notebook-u78v.vercel.app/login";
   const web2="https://ecommerce-next-x3mg.onrender.com";
+  const web4="https://movie-watchlist-kd.netlify.app";
+  const web5="https://fastidious-paletas-aa7140.netlify.app";
+  
   return (
     <section
       id="projects"
@@ -43,6 +48,20 @@ const Projects = () => {
           src={projectThree}
           link={link3}
           web={link3}
+        />
+                <ProjectsCard
+          title="Movie-watchlist Website"
+          des="The Movie Watchlist project is a web application that allows users to manage a list of movies they want to watch. Users can add, edit, delete movies, mark them as watched/unwatched, and provide ratings and reviews. The application uses a React frontend, Redux for state management, and MongoDB as the backend database. It is hosted on Netlify, with serverless functions handling the backend API."
+          src={projectFour}
+          link={link4}
+          web={web4}
+        />
+                <ProjectsCard
+          title="Homepage UI"
+          des="This project is a company homepage built using Next.js, a React framework for building fast and user-friendly web applications. The project focuses on the frontend part, providing an interactive and visually appealing user interface for visitors."
+          src={projectFive}
+          link={link5}
+          web={web5}
         />
       </div>
     </section>
