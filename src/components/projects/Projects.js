@@ -9,7 +9,7 @@ const Projects = () => {
   const link3 = "https://github.com/ksb44/forum";
 
   const web1="https://i-notebook-u78v.vercel.app/login";
-  const web2="https://i-notebook-u78v.vercel.app/login";
+  const web2="https://ecommerce-next-x3mg.onrender.com";
   return (
     <section
       id="projects"
