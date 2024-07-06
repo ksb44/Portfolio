@@ -8,6 +8,8 @@ const Projects = () => {
   const link2 = "https://github.com/ksb44/Ecommerce";
   const link3 = "https://github.com/ksb44/forum";
 
+  const web1="https://i-notebook-u78v.vercel.app/login";
+
   return (
     <section
       id="projects"
@@ -25,12 +27,14 @@ const Projects = () => {
           des="Led the development of a note-taking application, empowering users to sign up, log in, and manage their task lists, including the ability to update, delete, and mark tasks as completed.Demonstrated proficiency in full-stack development by integrating frontend and backend components, resulting in a user-friendly and responsive application."
           src={projectOne}
           link={link1}
+          web={web1}
         />
         <ProjectsCard
           title="Ecommerce Website"
           des="Developed an e-commerce platform enabling users to sign up, log in, and browse products, with the ability to add items to their cart. The platform calculates the total cost of all products in the cart.Utilized Tailwind CSS for rapid UI development, ensuring a modern and visually appealing interface."
           src={projectTwo}
           link={link2}
+          web={web2}
         />
 
         <ProjectsCard
