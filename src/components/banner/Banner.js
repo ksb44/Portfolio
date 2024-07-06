@@ -10,6 +10,7 @@ const Banner = () => {
     deleteSpeed: 15,
     delaySpeed: 2500,
   });
+  
   return (
     <section
       id="home"
