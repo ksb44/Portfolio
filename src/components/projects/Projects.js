@@ -42,13 +42,13 @@ const Projects = () => {
           web={web2}
         />
 
-        // <ProjectsCard
-        //   title="Discussion Website"
-        //   des="Headed the establishment of an innovative knowledge-sharing platform, fostering an impressive 25% increase in user engagement. Demonstrated proficiency in utilizing PHP for backend functionalities, optimizing database management efficiency with MySQL,and enhancing user experience with Bootstrap."
-        //   src={projectThree}
-        //   link={link3}
-        //   web={link3}
-        // />
+       /* <ProjectsCard
+          title="Discussion Website"
+          des="Headed the establishment of an innovative knowledge-sharing platform, fostering an impressive 25% increase in user engagement. Demonstrated proficiency in utilizing PHP for backend functionalities, optimizing database management efficiency with MySQL,and enhancing user experience with Bootstrap."
+          src={projectThree}
+          link={link3}
+          web={link3}
+        />*/
                 <ProjectsCard
           title="Movie-watchlist Website"
           des="The Movie Watchlist project is a web application that allows users to manage a list of movies they want to watch. Users can add, edit, delete movies, mark them as watched/unwatched, and provide ratings and reviews. The application uses a React frontend, Redux for state management, and MongoDB as the backend database."
