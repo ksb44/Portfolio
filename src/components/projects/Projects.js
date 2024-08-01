@@ -59,7 +59,7 @@ const Projects = () => {
         />
                       <ProjectsCard
           title="NetFlix-Clone"
-          des="Create a clone of netflix using React and firebase and also integrate the application with Gemini Ai for movie suggestion."
+          des="Develop a comprehensive clone of Netflix using React for the frontend and Firebase for backend services. Additionally, integrate the application with Gemini AI to provide advanced movie suggestions and personalized recommendations for users, enhancing their overall viewing experience."
           src={projectFour}
           link={link6}
           web={web6}
