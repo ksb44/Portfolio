@@ -9,11 +9,13 @@ const Projects = () => {
   const link3 = "https://github.com/ksb44/forum";
   const link4 = "https://github.com/ksb44/movie-watchlist";
   const link5 = "https://github.com/ksb44/homepage-UI";
+  const link6 = "https://github.com/ksb44/netflix-clone";
 
   const web1="https://i-notebook-u78v.vercel.app/login";
   const web2="https://ecommerce-next-x3mg.onrender.com";
   const web4="https://movie-watchlist-kd.netlify.app";
   const web5="https://fastidious-paletas-aa7140.netlify.app";
+  const web6="https://netflix-clone-phi-silk.vercel.app";
   
   return (
     <section
@@ -54,6 +56,13 @@ const Projects = () => {
           src={projectFive}
           link={link5}
           web={web5}
+        />
+                      <ProjectsCard
+          title="NetFlix-Clone"
+          des="Create a clone of netflix using React and firebase and also integrate the application with Gemini Ai for movie suggestion."
+          src={projectFour}
+          link={link6}
+          web={web6}
         />
               <ProjectsCard
           title="Discussion Website"
