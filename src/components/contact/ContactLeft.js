@@ -12,7 +12,7 @@ const ContactLeft = () => {
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Kuldeep Singh Bartwal</h3>
-        <p className="text-lg font-normal text-white">MERN Stack Developer</p>
+        <p className="text-lg font-normal text-white">FullStack Developer</p>
 
         <p className="text-base text-white flex items-center gap-2">
           Phone: <span className="text-white">+91 7351688044</span>
@@ -29,7 +29,7 @@ const ContactLeft = () => {
         <div className="flex gap-4 justify-evenly">
           <span className="bannerIcon w-1/3 flex  justify-evenly">
             <a
-              href="https://drive.google.com/file/d/1GAroDJy46lZQmnue_HN55lyesPeWmJUi/view"
+              href="https://drive.google.com/file/d/1_75aTbIbLAEkQv7ptZebfBKh-ntmvP8M/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
