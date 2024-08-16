@@ -10,12 +10,16 @@ const Projects = () => {
   const link4 = "https://github.com/ksb44/movie-watchlist";
   const link5 = "https://github.com/ksb44/homepage-UI";
   const link6 = "https://github.com/ksb44/netflix-clone";
+  const link7 = "https://github.com/ksb44/realtime-coding";
+  const link8 = "https://github.com/ksb44/design-frontend";
 
   const web1="https://i-notebook-u78v.vercel.app/login";
   const web2="https://ecommerce-next-x3mg.onrender.com";
   const web4="https://movie-watchlist-kd.netlify.app";
   const web5="https://fastidious-paletas-aa7140.netlify.app";
   const web6="https://netflix-clone-phi-silk.vercel.app";
+  const web7="https://room-coding.netlify.app";
+  const web8="https://edunova-design.netlify.app";
   
   return (
     <section
@@ -63,6 +67,20 @@ const Projects = () => {
           src={projectFour}
           link={link6}
           web={web6}
+        />
+                         <ProjectsCard
+          title="Realtime-Coding"
+          des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
+          src={projectOne}
+          link={link7}
+          web={web7}
+        />
+                         <ProjectsCard
+          title="Edunova-design UI"
+          des="This project is a company homepage built using Next.js, a React framework for building fast and user-friendly web applications. The project focuses on the frontend part, providing an interactive and visually appealing user interface for visitors"
+          src={projectFive}
+          link={link8}
+          web={web8}
         />
               <ProjectsCard
           title="Discussion Website"
