@@ -29,7 +29,7 @@ const ContactLeft = () => {
         <div className="flex gap-4 justify-evenly">
           <span className="bannerIcon w-1/3 flex  justify-evenly">
             <a
-              href="https://drive.google.com/file/d/1_75aTbIbLAEkQv7ptZebfBKh-ntmvP8M/view?usp=sharing"
+              href="https://drive.google.com/file/d/1XfIH4-2Km21swM8Gzp8iLEnIU5rMEDcF/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
             >
