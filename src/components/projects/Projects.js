@@ -33,6 +33,29 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+
+          <ProjectsCard
+          title="Messaging App"
+          des="A modern anonymous messaging app built with Next.js and TypeScript, featuring secure authentication through NextAuth, elegant UI components from Shadcn, and intelligent message suggestions powered by Gemini AI to enhance user interaction."
+          src={projectFour}
+          link={link9}
+          web={web9}
+        />
+             <ProjectsCard
+          title="NetFlix-Clone"
+          des="Develop a comprehensive clone of Netflix using React for the frontend and Firebase for backend services. Additionally, integrate the application with Gemini AI to provide advanced movie suggestions and personalized recommendations for users, enhancing their overall viewing experience."
+          src={projectFour}
+          link={link6}
+          web={web6}
+        />
+
+          <ProjectsCard
+          title="Realtime-Coding"
+          des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
+          src={projectOne}
+          link={link7}
+          web={web7}
+        />
         <ProjectsCard
           title="INote Website"
           des="Led the development of a note-taking application, empowering users to sign up, log in, and manage their task lists, including the ability to update, delete, and mark tasks as completed.Demonstrated proficiency in full-stack development by integrating frontend and backend components, resulting in a user-friendly and responsive application."
@@ -61,20 +84,8 @@ const Projects = () => {
           link={link5}
           web={web5}
         />
-                      <ProjectsCard
-          title="NetFlix-Clone"
-          des="Develop a comprehensive clone of Netflix using React for the frontend and Firebase for backend services. Additionally, integrate the application with Gemini AI to provide advanced movie suggestions and personalized recommendations for users, enhancing their overall viewing experience."
-          src={projectFour}
-          link={link6}
-          web={web6}
-        />
-                         <ProjectsCard
-          title="Realtime-Coding"
-          des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
-          src={projectOne}
-          link={link7}
-          web={web7}
-        />
+         
+       
                          <ProjectsCard
           title="Edunova-design UI"
           des="This project is a company homepage built using Next.js, a React framework for building fast and user-friendly web applications. The project focuses on the frontend part, providing an interactive and visually appealing user interface for visitors."
@@ -83,13 +94,7 @@ const Projects = () => {
           web={web8}
         />
             
-                         <ProjectsCard
-          title="Messaging App"
-          des="A modern anonymous messaging app built with Next.js and TypeScript, featuring secure authentication through NextAuth, elegant UI components from Shadcn, and intelligent message suggestions powered by Gemini AI to enhance user interaction."
-          src={projectFour}
-          link={link9}
-          web={web9}
-        />
+       
               <ProjectsCard
           title="Discussion Website"
           des="Headed the establishment of an innovative knowledge-sharing platform, fostering an impressive 25% increase in user engagement. Demonstrated proficiency in utilizing PHP for backend functionalities, optimizing database management efficiency with MySQL,and enhancing user experience with Bootstrap."
