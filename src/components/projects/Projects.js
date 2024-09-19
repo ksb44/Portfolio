@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree,projectFour, projectFive } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen, projectFifteen} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -52,56 +52,56 @@ const Projects = () => {
           <ProjectsCard
           title="Messaging App"
           des="A modern anonymous messaging app built with Next.js and TypeScript, featuring secure authentication through NextAuth, elegant UI components from Shadcn, and intelligent message suggestions powered by Gemini AI to enhance user interaction."
-          src={projectFour}
+          src={projectNine}
           link={link9}
           web={web9}
         />
              <ProjectsCard
           title="NetFlix-Clone"
           des="Develop a comprehensive clone of Netflix using React for the frontend and Firebase for backend services. Additionally, integrate the application with Gemini AI to provide advanced movie suggestions and personalized recommendations for users, enhancing their overall viewing experience."
-          src={projectFour}
+          src={projectSix}
           link={link6}
           web={web6}
         />
             <ProjectsCard
           title="Dynamic Dashboard"
           des="This is a dynamic dashboard application built with React and Tailwind CSS. The dashboard allows users to manage categories and widgets dynamically, providing an intuitive interface to add, remove, and manage widgets within different categories."
-          src={projectOne}
+          src={projectTen}
           link={link10}
           web={web10}
         />
             <ProjectsCard
           title="Grid-view"
           des="This project includes a horizontal hamburger menu with single-level sub-menus, and a main content area that shows data in both grid and tile views. Each tile features options for editing, flagging, or deleting, and clicking a tile reveals detailed information in an expanded view or pop-up. The data is dynamically fetched using a public API."
-          src={projectOne}
+          src={projectEleven}
           link={link11}
           web={web11}
         />
             <ProjectsCard
           title="Event-Scheduler"
           des="This project features an event scheduler with customizable recurrence patterns, allowing events to repeat daily, monthly, or yearly. Users can select start and end dates, and the scheduler will display all relevant event dates within the specified range."
-          src={projectOne}
+          src={projectTwelve}
           link={link12}
           web={web12}
         />
             <ProjectsCard
           title="News-app"
           des="Build a news app using the gnews.io API to fetch and display articles. Design a responsive, user-friendly interface for mobile, tablet, and desktop views. Deploy the app on Firebase and share your project link and repository along with a brief development overview."
-          src={projectOne}
+          src={projectThirteen}
           link={link13}
           web={web13}
         />
               <ProjectsCard
           title="Task-Manager"
           des="This task management application allows users to create, edit, and delete tasks. Users can mark tasks as completed or incomplete, and apply filters based on task status and priority. The app also features pagination to manage and view tasks efficiently."
-          src={projectOne}
+          src={projectFourteen}
           link={link14}
           web={web14}
         />
               <ProjectsCard
           title="College-Management"
           des="The College Management System, built with Next.js, enables users to select their role (either User or Admin) during signup and login. Admins have access to advanced features, including database interactions and record creation, while regular users have limited access. The system ensures role-based feature availability for effective management and usability."
-          src={projectOne}
+          src={projectFifteen}
           link={link15}
           web={web15}
         />
@@ -109,7 +109,7 @@ const Projects = () => {
           <ProjectsCard
           title="Realtime-Coding"
           des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
-          src={projectOne}
+          src={projectSeven}
           link={link7}
           web={web7}
         />
