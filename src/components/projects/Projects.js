@@ -13,14 +13,29 @@ const Projects = () => {
   const link7 = "https://github.com/ksb44/realtime-coding";
   const link8 = "https://github.com/ksb44/design-frontend";
   const link9 = "https://github.com/ksb44/messaging-app";
-  const web1="https://i-notebook-u78v.vercel.app/login";
-  const web2="https://ecommerce-next-x3mg.onrender.com";
-  const web4="https://movie-watchlist-kd.netlify.app";
-  const web5="https://fastidious-paletas-aa7140.netlify.app";
-  const web6="https://netflix-clone-phi-silk.vercel.app";
-  const web7="https://room-coding.netlify.app";
-  const web8="https://edunova-design.netlify.app";
-  const web9="https://messaging-app-sigma-ebon.vercel.app";
+  const link10 = "https://github.com/ksb44/dynamic-dashboard-widget-manager" 
+  const link11 = "https://github.com/ksb44/grid-view" 
+  const link12 = "https://github.com/ksb44/Task-scheduler" 
+  const link13 = "https://github.com/ksb44/news-web-frontend" 
+  const link14 = "https://github.com/ksb44/task-manager" 
+  const link15 = "https://github.com/ksb44/college-mangement-simple" 
+  
+  const web1 ="https://i-notebook-u78v.vercel.app/login";
+  const web2 ="https://ecommerce-next-x3mg.onrender.com";
+  const web4 ="https://movie-watchlist-kd.netlify.app";
+  const web5 ="https://fastidious-paletas-aa7140.netlify.app";
+  const web6 ="https://netflix-clone-phi-silk.vercel.app";
+  const web7 ="https://room-coding.netlify.app";
+  const web8 ="https://edunova-design.netlify.app";
+  const web9  ="https://messaging-app-sigma-ebon.vercel.app";
+  const web10 ="https://famous-blini-05ae67.netlify.app"
+  const web11 ="https://storied-squirrel-573aca.netlify.app"
+  const web12 ="https://task-scheduler-pearl-phi.vercel.app"
+  const web13 ="https://acowale-project.web.app"
+  const web14 ="https://famous-sunflower-7ac9ed.netlify.app"
+  const web15 ="https://college-mangement-simple.vercel.app"
+
+  
   return (
     <section
       id="projects"
@@ -48,7 +63,49 @@ const Projects = () => {
           link={link6}
           web={web6}
         />
-
+            <ProjectsCard
+          title="Dynamic Dashboard"
+          des="This is a dynamic dashboard application built with React and Tailwind CSS. The dashboard allows users to manage categories and widgets dynamically, providing an intuitive interface to add, remove, and manage widgets within different categories."
+          src={projectOne}
+          link={link10}
+          web={web10}
+        />
+            <ProjectsCard
+          title="Grid-view"
+          des="This project includes a horizontal hamburger menu with single-level sub-menus, and a main content area that shows data in both grid and tile views. Each tile features options for editing, flagging, or deleting, and clicking a tile reveals detailed information in an expanded view or pop-up. The data is dynamically fetched using a public API."
+          src={projectOne}
+          link={link11}
+          web={web11}
+        />
+            <ProjectsCard
+          title="Event-Scheduler"
+          des="This project features an event scheduler with customizable recurrence patterns, allowing events to repeat daily, monthly, or yearly. Users can select start and end dates, and the scheduler will display all relevant event dates within the specified range."
+          src={projectOne}
+          link={link12}
+          web={web12}
+        />
+            <ProjectsCard
+          title="News-app"
+          des="Build a news app using the gnews.io API to fetch and display articles. Design a responsive, user-friendly interface for mobile, tablet, and desktop views. Deploy the app on Firebase and share your project link and repository along with a brief development overview."
+          src={projectOne}
+          link={link13}
+          web={web13}
+        />
+              <ProjectsCard
+          title="Task-Manager"
+          des="This task management application allows users to create, edit, and delete tasks. Users can mark tasks as completed or incomplete, and apply filters based on task status and priority. The app also features pagination to manage and view tasks efficiently."
+          src={projectOne}
+          link={link14}
+          web={web14}
+        />
+              <ProjectsCard
+          title="College-Management"
+          des="The College Management System, built with Next.js, enables users to select their role (either User or Admin) during signup and login. Admins have access to advanced features, including database interactions and record creation, while regular users have limited access. The system ensures role-based feature availability for effective management and usability."
+          src={projectOne}
+          link={link15}
+          web={web15}
+        />
+            
           <ProjectsCard
           title="Realtime-Coding"
           des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
