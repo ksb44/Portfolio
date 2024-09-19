@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven, projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen, projectFifteen} from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen, projectFifteen} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
