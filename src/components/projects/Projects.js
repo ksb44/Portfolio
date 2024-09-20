@@ -19,6 +19,7 @@ const Projects = () => {
   const link13 = "https://github.com/ksb44/news-web-frontend" 
   const link14 = "https://github.com/ksb44/task-manager" 
   const link15 = "https://github.com/ksb44/college-mangement-simple" 
+  const link16 = "https://github.com/ksb44/Tax-Invoice-"
   
   const web1 ="https://i-notebook-u78v.vercel.app/login";
   const web2 ="https://ecommerce-next-x3mg.onrender.com";
@@ -34,7 +35,7 @@ const Projects = () => {
   const web13 ="https://acowale-project.web.app"
   const web14 ="https://famous-sunflower-7ac9ed.netlify.app"
   const web15 ="https://college-mangement-simple.vercel.app"
-
+  const web16 ="https://stellar-biscotti-9cda02.netlify.app"
   
   return (
     <section
@@ -104,6 +105,14 @@ const Projects = () => {
           src={projectFifteen}
           link={link15}
           web={web15}
+        />
+
+               <ProjectsCard
+          title="Tax Invoice"
+          des="A React-based Invoice Generator that lets users create, edit, and manage invoices, including logo upload and dynamic line items. Users can calculate totals and download invoices as PDFs."
+          src={projectTen}
+          link={link16}
+          web={web16}
         />
             
           <ProjectsCard
