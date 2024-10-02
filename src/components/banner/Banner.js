@@ -4,7 +4,7 @@ import { useTypewriter, Cursor } from "react-simple-typewriter";
 import Media from "./Media";
 const Banner = () => {
   const [text] = useTypewriter({
-    words: ["Javascript Developer.", "FrontEnd Developer.", "BackEnd Developer."],
+    words: ["Javascript Developer.", "FrontEnd Developer.", "FullStack Developer."],
     loop: true,
     typeSpeed: 25,
     deleteSpeed: 15,
