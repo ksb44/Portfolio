@@ -12,11 +12,11 @@ const Experience = () => {
       <div>
         <div className="flex flex-col gap-4"></div>
         <div className="mt-6 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
+         <ResumeCard
             title="Software Development Engineer (SDE) - 1"
             subTitle="Amigo Softcom - (Sept 2024 - Present)"
             result="GURGAON"
-            des="Identified and resolved a critical authentication bug in a Next.js and Express application, improving security and user access reliability by 20%.Developed comprehensive end-to-end test cases using Playwright, enhancing test coverage by 25% and preventing regressions in key application features.Implemented unit tests across various components, increasing code coverage by 35% and improving overall code quality by 30%."
+            des="Spearheaded the development of a fully-functional food delivery platform, including a responsive web application built with Next.js and Express, and a Swift-based iOS app. Integrated AI features for personalized recommendations and real-time delivery tracking, enhancing user satisfaction. Resolved a critical authentication bug, improving system security and reliability. Boosted code quality by 30% through implementing unit tests and increased test coverage by 25% with comprehensive Playwright-based end-to-end tests."
           />
           <ResumeCard
             title="Software Engineer"
