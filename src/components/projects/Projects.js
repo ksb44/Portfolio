@@ -1,6 +1,6 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen, projectFifteen} from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven,projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen, projectFifteen,projectSixteen} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
@@ -53,56 +53,65 @@ const Projects = () => {
           <ProjectsCard
           title="Messaging App"
           des="A modern anonymous messaging app built with Next.js and TypeScript, featuring secure authentication through NextAuth, elegant UI components from Shadcn, and intelligent message suggestions powered by Gemini AI to enhance user interaction."
-          src={projectNine}
+          src={projectOne}
           link={link9}
           web={web9}
         />
              <ProjectsCard
           title="NetFlix-Clone"
           des="Develop a comprehensive clone of Netflix using React for the frontend and Firebase for backend services. Additionally, integrate the application with Gemini AI to provide advanced movie suggestions and personalized recommendations for users, enhancing their overall viewing experience."
-          src={projectSix}
+          src={projectTwo}
           link={link6}
           web={web6}
         />
             <ProjectsCard
+          title="Realtime-Coding"
+          des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
+          src={projectTen}
+          link={link7}
+          web={web7}
+        />
+           <ProjectsCard
+          title="Event-Scheduler"
+          des="This project features an event scheduler with customizable recurrence patterns, allowing events to repeat daily, monthly, or yearly. Users can select start and end dates, and the scheduler will display all relevant event dates within the specified range."
+          src={projectFive}
+          link={link12}
+          web={web12}
+        />
+           <ProjectsCard
+          title="Task-Manager"
+          des="This task management application allows users to create, edit, and delete tasks. Users can mark tasks as completed or incomplete, and apply filters based on task status and priority. The app also features pagination to manage and view tasks efficiently."
+          src={projectSix}
+          link={link14}
+          web={web14}
+        />
+            <ProjectsCard
           title="Dynamic Dashboard"
           des="This is a dynamic dashboard application built with React and Tailwind CSS. The dashboard allows users to manage categories and widgets dynamically, providing an intuitive interface to add, remove, and manage widgets within different categories."
-          src={projectTen}
+          src={projectThree}
           link={link10}
           web={web10}
         />
             <ProjectsCard
           title="Grid-view"
           des="This project includes a horizontal hamburger menu with single-level sub-menus, and a main content area that shows data in both grid and tile views. Each tile features options for editing, flagging, or deleting, and clicking a tile reveals detailed information in an expanded view or pop-up. The data is dynamically fetched using a public API."
-          src={projectEleven}
+          src={projectFour}
           link={link11}
           web={web11}
         />
-            <ProjectsCard
-          title="Event-Scheduler"
-          des="This project features an event scheduler with customizable recurrence patterns, allowing events to repeat daily, monthly, or yearly. Users can select start and end dates, and the scheduler will display all relevant event dates within the specified range."
-          src={projectTwelve}
-          link={link12}
-          web={web12}
-        />
+         
             <ProjectsCard
           title="News-app"
           des="Build a news app using the gnews.io API to fetch and display articles. Design a responsive, user-friendly interface for mobile, tablet, and desktop views. Deploy the app on Firebase and share your project link and repository along with a brief development overview."
-          src={projectThirteen}
+          src={projectSeven}
           link={link13}
           web={web13}
         />
-              <ProjectsCard
-          title="Task-Manager"
-          des="This task management application allows users to create, edit, and delete tasks. Users can mark tasks as completed or incomplete, and apply filters based on task status and priority. The app also features pagination to manage and view tasks efficiently."
-          src={projectFourteen}
-          link={link14}
-          web={web14}
-        />
+           
               <ProjectsCard
           title="College-Management"
           des="The College Management System, built with Next.js, enables users to select their role (either User or Admin) during signup and login. Admins have access to advanced features, including database interactions and record creation, while regular users have limited access. The system ensures role-based feature availability for effective management and usability."
-          src={projectFifteen}
+          src={projectEight}
           link={link15}
           web={web15}
         />
@@ -110,43 +119,37 @@ const Projects = () => {
                <ProjectsCard
           title="Tax Invoice"
           des="A React-based Invoice Generator that lets users create, edit, and manage invoices, including logo upload and dynamic line items. Users can calculate totals and download invoices as PDFs."
-          src={projectTen}
+          src={projectNine}
           link={link16}
           web={web16}
         />
             
-          <ProjectsCard
-          title="Realtime-Coding"
-          des="In this, I have used the Socket.IO library for communication. One can create a room, share the room ID with others, and they can also join. The code written in the editor is live-transmitted to others in the room."
-          src={projectSeven}
-          link={link7}
-          web={web7}
-        />
+      
         <ProjectsCard
           title="INote Website"
           des="Led the development of a note-taking application, empowering users to sign up, log in, and manage their task lists, including the ability to update, delete, and mark tasks as completed.Demonstrated proficiency in full-stack development by integrating frontend and backend components, resulting in a user-friendly and responsive application."
-          src={projectOne}
+          src={projectEleven}
           link={link1}
           web={web1}
         />
         <ProjectsCard
           title="Ecommerce Website"
           des="Developed an e-commerce platform enabling users to sign up, log in, and browse products, with the ability to add items to their cart. The platform calculates the total cost of all products in the cart.Utilized Tailwind CSS for rapid UI development, ensuring a modern and visually appealing interface."
-          src={projectTwo}
+          src={projectFifteen}
           link={link2}
           web={web2}
         />
                 <ProjectsCard
           title="Movie-watchlist Website"
           des="The Movie Watchlist project is a web application that allows users to manage a list of movies they want to watch. Users can add, edit, delete movies, mark them as watched/unwatched, and provide ratings and reviews. The application uses a React frontend, Redux for state management, and MongoDB as the backend database."
-          src={projectFour}
+          src={projectTwelve}
           link={link4}
           web={web4}
         />
                 <ProjectsCard
           title="Homepage UI"
           des="This project is a company homepage built using Next.js, a React framework for building fast and user-friendly web applications. The project focuses on the frontend part, providing an interactive and visually appealing user interface for visitors."
-          src={projectFive}
+          src={projectThirteen}
           link={link5}
           web={web5}
         />
@@ -155,19 +158,19 @@ const Projects = () => {
                          <ProjectsCard
           title="Edunova-design UI"
           des="This project is a company homepage built using Next.js, a React framework for building fast and user-friendly web applications. The project focuses on the frontend part, providing an interactive and visually appealing user interface for visitors."
-          src={projectFive}
+          src={projectFourteen}
           link={link8}
           web={web8}
         />
             
        
-              <ProjectsCard
+              {/* <ProjectsCard
           title="Discussion Website"
           des="Headed the establishment of an innovative knowledge-sharing platform, fostering an impressive 25% increase in user engagement. Demonstrated proficiency in utilizing PHP for backend functionalities, optimizing database management efficiency with MySQL,and enhancing user experience with Bootstrap."
           src={projectThree}
           link={link3}
           web={link3}
-        />
+        /> */}
             
       </div>
     </section>
