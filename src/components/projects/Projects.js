@@ -1,12 +1,11 @@
 import React from "react";
 import Title from "../layouts/Title";
-import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven,projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen, projectFifteen,projectSixteen} from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour, projectFive, projectSix ,projectSeven,projectEight, projectNine, projectTen, projectEleven, projectTwelve, projectThirteen, projectFourteen} from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 
 const Projects = () => {
   const link1 = "https://github.com/ksb44/INotebook";
   const link2 = "https://github.com/ksb44/Ecommerce-Next";
-  const link3 = "https://github.com/ksb44/forum";
   const link4 = "https://github.com/ksb44/movie-watchlist";
   const link5 = "https://github.com/ksb44/homepage-UI";
   const link6 = "https://github.com/ksb44/netflix-clone";
